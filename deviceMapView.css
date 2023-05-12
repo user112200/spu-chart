@@ -1,0 +1,42 @@
+svg circle {
+	fill: #eeece1;
+	stroke-width : 0px;
+	stroke: #eeece1;
+}
+svg line {
+	stroke : #a6c0de;
+	stroke-width : 3px;
+}
+svg text {
+	font-size : 14px;
+	font-family : "Helvetica Neue",Helvetica,Arial,sans-serif;
+	fill : #3f6696;
+} 
+
+#resizerGuide {
+	fill : rgba(255,255,255,0.1);
+	stroke-width : 3px;
+	stroke : red;
+	stroke-dasharray : 1,3;
+}
+
+svg circle.resizerPointer {
+	fill : blue;
+	stroke-width : 2px;
+	stroke : red;
+	stroke-dasharray : 1,1;
+	cursor : nwse-resize;
+	
+}
+
+#contextmenu {
+	background: #fcfcfc;
+    border: 1px solid #dddddd;
+    padding: 3px 6px;
+    border-radius: 4px;
+}
+
+#contextmenu a, #contextmenu a:visited, #contextmenu a:hover  {
+	color : #222;
+	
+}
